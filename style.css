@@ -1,0 +1,118 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* الهيدر والتنقل */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600; /* لون برتقالي لشركات الشحن */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* الجزء الرئيسي (Hero Section) */
+#home {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1200x600'); /* صورة تخيلية */
+    background-size: cover;
+    color: white;
+    padding: 0 20px;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#home button {
+    padding: 12px 30px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* قسم المميزات */
+#services {
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: white;
+}
+
+#services div {
+    flex: 1;
+    padding: 20px;
+}
+
+/* نموذج الطلب */
+#order {
+    padding: 50px 10%;
+    background: #eee;
+    text-align: center;
+}
+
+#order form {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#order input, #order select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#order button {
+    background: #333;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
